@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Vicente\Dropbox\Facultad\Cuarto\PDM\ejemploConexionBaseDatos\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\jars\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="C:\Users\Vicente\Dropbox\Facultad\Cuarto\PDM\ejemploConexionBaseDatos\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-9a87677f4b9c6c9331cec73fe1278878fa90afb8.jar" />
+    </item>
+    <item
+        jar="C:\Users\Vicente\Dropbox\Facultad\Cuarto\PDM\ejemploConexionBaseDatos\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="C:\Users\Vicente\Dropbox\Facultad\Cuarto\PDM\ejemploConexionBaseDatos\app\build\intermediates\pre-dexed\debug\classes-8822141d7d68e84fb7f8219482e26ffd77c23f75.jar" />
+    </item>
+    <item
+        jar="C:\Users\Vicente\Dropbox\Facultad\Cuarto\PDM\ejemploConexionBaseDatos\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="C:\Users\Vicente\Dropbox\Facultad\Cuarto\PDM\ejemploConexionBaseDatos\app\build\intermediates\pre-dexed\debug\classes-eb6e8fdd11a81104600ed061e3f17c72e95162b9.jar" />
+    </item>
+    <item
+        jar="C:\Users\Vicente\Dropbox\Facultad\Cuarto\PDM\ejemploConexionBaseDatos\app\libs\mysql-connector-java-3.0.17-ga-bin.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="3d8b493d12562fc904a947ea7b84394fe67e8a55">
+        <dex dex="C:\Users\Vicente\Dropbox\Facultad\Cuarto\PDM\ejemploConexionBaseDatos\app\build\intermediates\pre-dexed\debug\mysql-connector-java-3.0.17-ga-bin-a7e915ae89cc45f4b138decd4b82986dde3f9705.jar" />
+    </item>
+    <item
+        jar="C:\Users\Vicente\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="C:\Users\Vicente\Dropbox\Facultad\Cuarto\PDM\ejemploConexionBaseDatos\app\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-80c7346d7bb905598e838b508d944d1df89ea82b.jar" />
+    </item>
+
+</items>

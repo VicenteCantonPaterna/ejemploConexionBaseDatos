@@ -1,0 +1,192 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView android:text="@string/nombreJuego" android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvJuego"
+                android:textColor="#ff0000"
+                android:gravity="center"
+                android:layout_alignTop="@+id/etNombre"
+                android:layout_alignLeft="@+id/tvVideoconsola"
+                android:layout_alignStart="@+id/tvVideoconsola"
+                android:layout_alignBottom="@+id/etNombre" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/etNombre"
+                android:hint="juego"
+                android:layout_above="@+id/btnConectar"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_toEndOf="@+id/tvJuego"
+                android:layout_alignLeft="@+id/etVideoconsola"
+                android:layout_alignStart="@+id/etVideoconsola" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text="Conexion a base de datos desde android"
+                android:id="@+id/textView2"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Buscar"
+                android:id="@+id/btnConectar"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/videoconsola"
+                android:id="@+id/tvVideoconsola"
+                android:gravity="center"
+                android:textColor="#ff0000"
+                android:layout_above="@+id/tvJuego"
+                android:layout_toLeftOf="@+id/btnConectar"
+                android:layout_toStartOf="@+id/btnConectar"
+                android:layout_alignTop="@+id/etVideoconsola" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/etVideoconsola"
+                android:hint="videoconsola"
+                android:layout_above="@+id/etNombre"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_toEndOf="@+id/tvJuego"
+                android:layout_toRightOf="@+id/tvJuego" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="0.6">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/genero"
+                android:textSize="20sp"
+                android:textColor="#aa00ff"
+                android:id="@+id/textView3"
+                android:layout_marginLeft="82dp"
+                android:layout_marginStart="82dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="------"
+                android:textSize="20sp"
+                android:id="@+id/tvGenero"
+                android:layout_alignTop="@+id/textView3"
+                android:layout_toRightOf="@+id/textView3"
+                android:layout_toEndOf="@+id/textView3"
+                android:layout_marginLeft="64dp"
+                android:layout_marginStart="64dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/valoracion"
+                android:textColor="#aa00ff"
+                android:textSize="20sp"
+                android:id="@+id/textView4"
+                android:layout_marginTop="46dp"
+                android:layout_below="@+id/textView3"
+                android:layout_alignRight="@+id/textView3"
+                android:layout_alignEnd="@+id/textView3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="------"
+                android:textSize="20sp"
+                android:id="@+id/tvValoracion"
+                android:layout_alignTop="@+id/textView4"
+                android:layout_alignLeft="@+id/tvGenero"
+                android:layout_alignStart="@+id/tvGenero" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#aa00ff"
+                android:text="@string/pegi"
+                android:id="@+id/tv2"
+                android:layout_above="@+id/textView8"
+                android:layout_alignRight="@+id/textView4"
+                android:layout_alignEnd="@+id/textView4" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="------"
+                android:textSize="20sp"
+                android:id="@+id/tvPEGI"
+                android:layout_centerVertical="true"
+                android:layout_alignLeft="@+id/tvValoracion"
+                android:layout_alignStart="@+id/tvValoracion" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Precio"
+                android:textSize="20sp"
+                android:textColor="#aa00ff"
+                android:id="@+id/textView8"
+                android:layout_below="@+id/tvPEGI"
+                android:layout_toLeftOf="@+id/tvGenero"
+                android:layout_toStartOf="@+id/tvGenero"
+                android:layout_marginTop="48dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="------"
+                android:textSize="20sp"
+                android:id="@+id/tvPrecio"
+                android:layout_alignTop="@+id/textView8"
+                android:layout_alignLeft="@+id/tvPEGI"
+                android:layout_alignStart="@+id/tvPEGI" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

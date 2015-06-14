@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ejemploConexionBaseDatos</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="introduceNombre">Introduce tu nombre: </string>
+    <string name="videoconsola">Videoconsola</string>
+    <string name="nombreJuego">Nombre del juego</string>
+    <string name="genero">Genero</string>
+    <string name="valoracion">Valoracion</string>
+    <string name="pegi">PEGI</string>
+    <string name="Precio">Precio</string>
+    <string name="Buscar">Buscar juego</string>
+</resources>
